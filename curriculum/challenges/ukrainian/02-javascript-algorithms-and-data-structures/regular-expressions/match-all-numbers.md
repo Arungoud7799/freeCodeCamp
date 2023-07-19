@@ -24,7 +24,7 @@ dashedName: match-all-numbers
 assert(/\\d/.test(numRegex.source));
 ```
 
-Ваш регулярний вираз повинен використовувати глобальний прапорець.
+Ваш регулярний вираз має використати глобальний прапорець.
 
 ```js
 assert(numRegex.global);

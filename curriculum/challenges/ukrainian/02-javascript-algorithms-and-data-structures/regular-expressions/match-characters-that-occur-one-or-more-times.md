@@ -28,7 +28,7 @@ dashedName: match-characters-that-occur-one-or-more-times
 assert(/\+/.test(myRegex.source));
 ```
 
-Ваш регулярний вираз `myRegex` повинен збігатися з двома елементами.
+Ваш регулярний вираз `myRegex` має знайти збіги для 2 елементів.
 
 ```js
 assert(result.length == 2);
